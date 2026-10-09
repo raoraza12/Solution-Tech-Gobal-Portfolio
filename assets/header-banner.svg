@@ -112,7 +112,7 @@
   <!-- Main Agency Title -->
   <g filter="url(#title-shadow)">
     <text x="600" y="200" text-anchor="middle" fill="url(#title-grad)" font-size="56" letter-spacing="6" class="font-title">
-      SOLUTION TECH
+      SOLUTION TECH GLOBAL
     </text>
   </g>
 

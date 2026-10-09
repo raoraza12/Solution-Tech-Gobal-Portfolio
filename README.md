@@ -2,13 +2,13 @@
 
 <!-- LOGO SECTION -->
 <a href="https://solution-tech1.github.io/SolutionTech-Portfolio/">
-  <img src="solution%20tech%20logo.png" width="130" alt="Solution Tech Logo" style="border-radius: 50%;" />
+  <img src="solution%20tech%20logo.png" width="130" alt="Solution Tech Global Logo" style="border-radius: 50%;" />
 </a>
 
 <br/><br/>
 
 <!-- MAIN TITLE & TYPOGRAPHY -->
-<h1><font face="Space Grotesk, Segoe UI, sans-serif" color="#C084FC">SOLUTION TECH</font></h1>
+<h1><font face="Space Grotesk, Segoe UI, sans-serif" color="#C084FC">SOLUTION TECH GLOBAL</font></h1>
 <h3><font face="Space Grotesk, Segoe UI, sans-serif" color="#38BDF8">Digital Studio &amp; AI Engineering Agency</font></h3>
 
 <p>
@@ -18,7 +18,7 @@
 <br/>
 
 <!-- DYNAMIC ANIMATED TAGLINE -->
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=19&duration=2500&pause=800&color=C084FC&center=true&vCenter=true&width=750&lines=🚀+Engineering+High-Performance+Web+Platforms;🤖+Building+Intelligent+AI+Agents+%26+Automation;🛍️+Architecting+High-Conversion+E-Commerce+Systems;⚡+Next.js+15+%E2%80%A2+MERN+Stack+%E2%80%A2+Gemini+AI;🌐+Delivering+World-Class+Digital+Excellence." alt="Solution Tech Dynamic Tagline" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=19&duration=2500&pause=800&color=C084FC&center=true&vCenter=true&width=750&lines=🚀+Engineering+High-Performance+Web+Platforms;🤖+Building+Intelligent+AI+Agents+%26+Automation;🛍️+Architecting+High-Conversion+E-Commerce+Systems;⚡+Next.js+15+%E2%80%A2+MERN+Stack+%E2%80%A2+Gemini+AI;🌐+Delivering+World-Class+Digital+Excellence." alt="Solution Tech Global Dynamic Tagline" />
 
 <br/><br/>
 
@@ -278,7 +278,7 @@
   <tr>
     <td width="50%" valign="top" align="center">
       <h3>⚡ Earthy Electronics Store</h3>
-      <p>High-performance consumer gadgets e-commerce store with modern checkout.</p>
+      <p>Premier eco-friendly &amp; inverter home appliances digital store with modern checkout.</p>
       <p>
         <a href="https://earthy-electronics.vercel.app/">
           <img src="https://img.shields.io/badge/🚀_Live_Demo-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" alt="Earthy Demo" />
@@ -306,9 +306,9 @@
     </td>
     <td width="50%" valign="top" align="center">
       <h3>👗 Drakewears Clothing Brand</h3>
-      <p>Full-stack modern fashion e-commerce store with complete CRUD and secure routing.</p>
+      <p>Modern luxury streetwear &amp; apparel storefront with dynamic catalog and seamless checkout.</p>
       <p>
-        <a href="https://luxe-brand.vercel.app/">
+        <a href="https://drakewears.vercel.app/">
           <img src="https://img.shields.io/badge/🚀_Live_Demo-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" alt="Drakewears Demo" />
         </a>
         &nbsp;&nbsp;
@@ -378,6 +378,6 @@
 
 <br/><br/>
 
-© 2026 Solution Tech. Built with passion &amp; precision.
+© 2026 Solution Tech Global. Built with passion &amp; precision.
 
 </div>

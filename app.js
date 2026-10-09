@@ -1,20 +1,23 @@
 const revealItems = document.querySelectorAll('.reveal');
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  },
-  {
-    threshold: 0.02,
-    rootMargin: '0px 0px 100px 0px'
-  }
-);
-
-revealItems.forEach((item) => observer.observe(item));
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    },
+    {
+      threshold: 0.02,
+      rootMargin: '0px 0px 100px 0px'
+    }
+  );
+  revealItems.forEach((item) => observer.observe(item));
+} else {
+  revealItems.forEach((item) => item.classList.add('visible'));
+}
 
 /* --- Interactive 3D Cyber Grid & Liquid Aurora Canvas Background (Performance Optimized) --- */
 const canvas = document.getElementById('particleCanvas');
@@ -168,6 +171,12 @@ if (mobileToggleBtn && siteNav) {
   mobileToggleBtn.addEventListener('click', () => {
     siteNav.classList.toggle('open');
   });
+
+  siteNav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      siteNav.classList.remove('open');
+    });
+  });
 }
 
 /* --- Project Category Filter Logic --- */
@@ -292,7 +301,7 @@ const projectData = {
       '⚡ Instant Chapter Summaries, Highlights & Concept Explanation',
       '📚 Personal User Workspace, Saved Books & Reading Progress'
     ],
-    link: 'https://nexus-ai-book.vercel.app'
+    link: 'nexus-reader.html'
   },
   healthmate: {
     title: 'HealthMate Wellness Portal',
@@ -308,19 +317,33 @@ const projectData = {
     ],
     link: 'https://healthmate-frontend-five.vercel.app/'
   },
+  earthy: {
+    title: 'Earthy Electronics — Eco Home Appliances Store',
+    tag: 'Full-Stack E-Commerce & Home Appliances',
+    media: 'assets/projects/earthy_home_appliances_ui_1788281434824.jpg',
+    desc: 'Pakistan premier eco-friendly & inverter home appliances e-commerce platform. Features energy-saving Inverter ACs, DC Refrigerators, smart LEDs, intelligent Gemini AI assistant, and seamless checkout.',
+    tech: 'React, Vite, Node.js, Express, SQLite / REST API, Gemini AI, Vercel',
+    highlights: [
+      'Dynamic product catalog for Inverter ACs, Refrigerators & LED TVs',
+      'Intelligent floating Gemini AI assistant for customer product recommendations',
+      'Instant search, brand filtering (Haier, Dawlance, Gree), and responsive cart',
+      'Admin dashboard with inventory management and live order tracking'
+    ],
+    link: 'https://earthy-electronics.vercel.app/'
+  },
   luxe: {
-    title: 'Drakewears Clothing E-Commerce Store',
-    tag: 'MERN Stack & E-Commerce',
-    media: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
-    desc: 'A high-performance MERN stack e-commerce web application featuring full CRUD product management, cart & checkout workflows, and optimized sub-second product page rendering.',
-    tech: 'React.js, Redux Toolkit, Tailwind CSS, Node.js, Express.js, MongoDB',
+    title: 'DRAKEWEARS — Modern Luxury Streetwear & Apparel',
+    tag: 'MERN Stack & Luxury Streetwear',
+    media: 'assets/projects/luxe_ui_1788278845205.jpg',
+    desc: 'A modern luxury streetwear & apparel storefront engineered with dynamic product catalogs, drop-shoulder collections, interactive cart, and seamless checkout.',
+    tech: 'React 19, Vite, Node.js, Express.js, PostgreSQL / Supabase, Tailwind CSS, Vercel',
     highlights: [
       'Seamless multi-item shopping cart with local state persistence',
       'Fast product filtering by category, price, and availability',
       'Full administrative panel for inventory & order tracking',
       'Optimized image loading and responsive luxury layout'
     ],
-    link: 'https://luxe-brand.vercel.app/'
+    link: 'https://drakewears.vercel.app/'
   },
   salt_n_pepper: {
     title: "Salt 'n Pepper Gourmet Dining & Delivery",
@@ -329,7 +352,7 @@ const projectData = {
     desc: "A luxury digital restaurant platform engineered for Pakistan's premier hospitality brand, Salt 'n Pepper. Featuring an interactive 3D culinary showcase, dual continuous drifting food rails, dish quick-view modal, dynamic customer feedback rating matrix, and nationwide branch directories.",
     tech: 'HTML5, Modern CSS3, JavaScript (ES6+), AOS Animations, Responsive Design',
     highlights: [
-      'Interactive 3D Chef�s food showcase carousel with touch-swipe & auto-rotation',
+      'Interactive 3D Chef\'s food showcase carousel with touch-swipe & auto-rotation',
       'Dual continuous drifting food rails with live dish inspection & quick-view ordering',
       'Dynamic customer feedback portal with interactive 5-star rating matrix',
       'Luxury dark glassmorphism theme, custom design tokens, and mobile drawer navigation'
