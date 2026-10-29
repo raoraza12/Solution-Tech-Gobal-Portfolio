@@ -77,27 +77,34 @@ if (canvas) {
     }
   }
 
-  const numStars = isMobile ? 50 : 150;
+  const numStars = isMobile ? 40 : 120;
   const stars = Array.from({ length: numStars }, () => new Star());
+  let isRunning = !document.hidden;
 
-  function animateCanvas(timestamp) {
-    requestAnimationFrame(animateCanvas);
+  document.addEventListener('visibilitychange', () => {
+    const wasRunning = isRunning;
+    isRunning = !document.hidden;
+    if (!wasRunning && isRunning && !isMobile) {
+      requestAnimationFrame(animateCanvas);
+    }
+  });
 
-    // Disable canvas entirely on mobile to prevent hanging
-
-    if (isMobile) { ctx.clearRect(0, 0, width, height); return; }
+  function animateCanvas() {
+    if (!isRunning || isMobile) return;
 
     ctx.clearRect(0, 0, width, height);
 
-    stars.forEach((star) => {
-      star.update();
-      star.draw();
-    });
+    for (let i = 0; i < stars.length; i++) {
+      stars[i].update();
+      stars[i].draw();
+    }
 
-    // Draw smooth ambient starfield without CPU-heavy distance loops
+    requestAnimationFrame(animateCanvas);
   }
 
-  requestAnimationFrame(animateCanvas);
+  if (!isMobile) {
+    requestAnimationFrame(animateCanvas);
+  }
 }
 
 const year = document.getElementById('year');
@@ -358,6 +365,20 @@ const projectData = {
       'Luxury dark glassmorphism theme, custom design tokens, and mobile drawer navigation'
     ],
     link: 'https://salt-and-pepper-flax.vercel.app'
+  },
+  cloud_hackathon: {
+    title: 'Indus Weave 3D Cyber-Forensic Operations Center',
+    tag: 'Cloud AI Hackathon & 3D Interactive Telemetry',
+    media: 'assets/projects/cloud_hackathon_ui.jpg',
+    desc: 'An autonomous 3D cyber-forensic operations center and automated cloud data pipeline engineered for the Saylani Cloud AI Hackathon. Features Three.js interactive 3D facility camera orbits, automated biometric payroll audit reconciliation, anomaly detection, and 22/22 data quality validations.',
+    tech: 'Three.js, GSAP 3D Motion, Chart.js, Python, SQLite/SQL Star Schema, WebGL, Vercel',
+    highlights: [
+      '🛰️ Interactive 3D Macro Orbit and Plant-level facility camera controls',
+      '🔍 Automated biometric punch vs payroll forensic reconciliation',
+      '⚡ 22/22 automated Data Quality (DQ) validation test suite passed',
+      '📊 Real-time financial leakage detection and multi-plant telemetry'
+    ],
+    link: 'cloud-hackathon.html'
   }
 };
 

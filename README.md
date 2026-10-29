@@ -249,6 +249,19 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top" align="center">
+      <h3>🛰️ Indus Weave • 3D Cyber-Forensic Center</h3>
+      <p>Autonomous 3D forensic operations center &amp; automated cloud data pipeline built for Saylani Cloud AI Hackathon with Three.js camera orbits.</p>
+      <p>
+        <a href="https://solution-tech1.github.io/SolutionTech-Portfolio/cloud-hackathon.html">
+          <img src="https://img.shields.io/badge/🌐_3D_Live_Demo-00f5ff?style=for-the-badge&logo=three.js&logoColor=black" alt="Cloud Hackathon Demo" />
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/raoraza12/saylani-Hackthon-Cloud">
+          <img src="https://img.shields.io/badge/💻_Repo-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Cloud Hackathon Repo" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top" align="center">
       <h3>🍳 Salt 'n Pepper Gourmet Dining</h3>
       <p>Digital restaurant &amp; online food ordering platform with table reservations &amp; order tracking.</p>
       <p>
@@ -261,6 +274,8 @@
         </a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top" align="center">
       <h3>📖 Nexus AI Interactive Reader</h3>
       <p>Interactive AI e-book platform with real-time conversational assistance.</p>
