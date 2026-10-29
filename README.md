@@ -197,23 +197,17 @@
 
 <table width="100%">
   <tr>
-    <td align="center" width="33.3%" valign="top">
+    <td align="center" width="50%" valign="top">
       <h3>👑 M Raza Rajput</h3>
       <p><b>CEO &amp; Full-Stack AI Lead</b></p>
       <p>🎓 Intermediate in CS &bull; 💼 2+ Yrs Exp</p>
       <p>Architects scalable Next.js &amp; MERN platforms and integrates Gemini AI workflows for global clients.</p>
     </td>
-    <td align="center" width="33.3%" valign="top">
+    <td align="center" width="50%" valign="top">
       <h3>📈 Abdul Rafay</h3>
       <p><b>Growth &amp; Creative Lead</b></p>
       <p>🎓 Intermediate in CS &bull; 💼 6 Mos Exp</p>
       <p>Specializes in high-impact brand identities, graphic assets, creative design systems, and client growth campaigns.</p>
-    </td>
-    <td align="center" width="33.3%" valign="top">
-      <h3>💻 Hamza Shamsi</h3>
-      <p><b>Full-Stack Dev &amp; Client Lead</b></p>
-      <p>🎓 CS Graduate &bull; 💼 1 Yr Exp</p>
-      <p>Directs client communication and engineers clean, responsive full-stack features with top-tier reliability.</p>
     </td>
   </tr>
   <tr>
