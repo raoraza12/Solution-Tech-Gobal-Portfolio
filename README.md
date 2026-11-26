@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- LOGO SECTION -->
-<a href="https://solution-tech1.github.io/SolutionTech-Portfolio/">
+<a href="https://raoraza12.github.io/Solution-Tech-Gobal-Portfolio/">
   <img src="solution%20tech%20logo.png" width="130" alt="Solution Tech Global Logo" style="border-radius: 50%;" />
 </a>
 
@@ -24,7 +24,7 @@
 
 <!-- QUICK ACTION BUTTON BADGES WITH BRAND LOGOS -->
 <p align="center">
-  <a href="https://solution-tech1.github.io/SolutionTech-Portfolio/">
+  <a href="https://raoraza12.github.io/Solution-Tech-Gobal-Portfolio/">
     <img src="https://img.shields.io/badge/🌐_Official_Live_Portfolio-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
   </a>
   &nbsp;&nbsp;
@@ -246,7 +246,7 @@
       <h3>🛰️ Indus Weave • 3D Cyber-Forensic Center</h3>
       <p>Autonomous 3D forensic operations center &amp; automated cloud data pipeline built for Saylani Cloud AI Hackathon with Three.js camera orbits.</p>
       <p>
-        <a href="https://solution-tech1.github.io/SolutionTech-Portfolio/cloud-hackathon.html">
+        <a href="https://raoraza12.github.io/Solution-Tech-Gobal-Portfolio/cloud-hackathon.html">
           <img src="https://img.shields.io/badge/🌐_3D_Live_Demo-00f5ff?style=for-the-badge&logo=three.js&logoColor=black" alt="Cloud Hackathon Demo" />
         </a>
       </p>
@@ -349,7 +349,7 @@
 
 <div align="center">
 
-👉 *Explore all 10+ live client deployments on our **[Official Live Portfolio Website](https://solution-tech1.github.io/SolutionTech-Portfolio/)**.*
+👉 *Explore all 10+ live client deployments on our **[Official Live Portfolio Website](https://raoraza12.github.io/Solution-Tech-Gobal-Portfolio/)**.*
 
 </div>
 
@@ -372,8 +372,8 @@
     <img src="https://img.shields.io/badge/Direct_Email-solution.tech.1214%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Email" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://solution-tech1.github.io/SolutionTech-Portfolio/">
-    <img src="https://img.shields.io/badge/Official_Portfolio-solution--tech1.github.io-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio Link" />
+  <a href="https://raoraza12.github.io/Solution-Tech-Gobal-Portfolio/">
+    <img src="https://img.shields.io/badge/Official_Portfolio-raoraza12.github.io-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio Link" />
   </a>
 </p>
 
